@@ -26,3 +26,7 @@ const reductionsByOrid = reductions.reduce((acc, cv)=>{
 }, {})
 
 console.log(reductionsByOrid);
+
+for(const reduction of reductions) {
+  console.log(reduction);
+}
